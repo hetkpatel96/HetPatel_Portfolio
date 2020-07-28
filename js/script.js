@@ -1,3 +1,11 @@
+window.addEventListener("load", function(){
+	document.querySelector(".preloader").classList.add("opacity-0");
+
+	setTimeout(function(){
+		document.querySelector(".preloader").style.display="none";
+	},1000)
+})
+
 // Aside Navbar
 
 const nav = document.querySelector(".nav"),
@@ -33,3 +41,15 @@ function showSection(element){
 	const target = element.getAttribute("href").split("#")[1];  
 	document.querySelector("#"+target).classList.add("active")
 }
+
+// const navTogglerBtn = document.querySelector(".nav-toggler"),
+// 	  aside = document.querySelector(".aside");
+
+// navTogglerBtn.addEventListener("click",() =>{
+// 	asideSectionTogglerBtn();
+// })
+
+// function asideSectionTogglerBtn(){
+// 	aside.classList.toggle("open");
+// 	navTogglerBtn.classList.toggle("open");
+// }
