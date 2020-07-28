@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>
+		Personal Portfolio
+	</title>
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+	
+	<!--CSS File -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/skins/pink.css">
+</head>
+
+
+<body>
+<!-- Main Container -->
+<div class="main-container">
+	<!--Aside -->
+	<div class="aside">
+		Aside
+	</div>
+	<!--Aside END-->
+	<!--Main Content-->
+	<div class="main-content">
+		<section class="home-section">
+			Home			
+		</section>	
+	</div>
+	<!--Main Content END -->	
+</div>
+<!--Main Container End -->
+	
+</body>
+
+</html>
