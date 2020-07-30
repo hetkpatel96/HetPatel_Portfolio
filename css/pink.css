@@ -1,16 +1,16 @@
 .aside .logo a::before{
-	border-top:4px solid #ec1839;
-	border-left:4px solid #ec1839;
+	border-top:4px solid #ec1850;
+	border-left:4px solid #ec1850;
 }
 .aside .logo a::after{
-	border-right:4px solid #ec1839;
-	border-bottom:4px solid #ec1839;
+	border-right:4px solid #ec1850;
+	border-bottom:4px solid #ec1850;
 }
 .contact .contact-info-item .icon .fa,
 .about .about-content .about-text h3 span,
 .aside .nav li a:hover,
 .aside .nav li a.active{
-	color: #ec1839;
+	color: #ec1850;
 }
 
 
@@ -28,5 +28,6 @@
 .aside .nav-toggler span::before,
 .aside .nav-toggler span::after,
 .home .intro .social-link a{
-	background-color: #ec1839;
+background-color: #ec1850;
 }
+/*#ec1839*/

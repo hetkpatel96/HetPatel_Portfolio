@@ -347,14 +347,21 @@ input,textarea,select{
 	border: 8px solid #ffffff; 
 }
 .home .intro h1{
-	font-size: 30px;
+	font-size: 35px;
 	color: #302e4d;
 	font-family: 'Rubik', sans-serif;
 	font-weight: 700;
 	margin: 20px 0 5px;
 }
 .home .intro p{
-	font-size: 16px;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0;
+	line-height: 22px;
+	color: #504e70;
+}
+.home .intro h5{
+	font-size: 15px;
 	font-weight: 500;
 	margin: 0;
 	line-height: 22px;
@@ -710,7 +717,7 @@ input,textarea,select{
 	position: relative;
 }
 .skills .skills-content .skill-item{
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 .skills .skills-content .skill-item .progress .progress-in{
 	position: absolute;
