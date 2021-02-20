@@ -735,6 +735,23 @@ input,textarea,select{
 	top: -40px;
 	font-weight: 400;
 }
+.dev-icons {
+    font-size: 5rem;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline-item{
+	display: inline-block;
+	color: #302e4d;
+}
+.list-inline-item:hover{
+	color: #ec1850;;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 
 /* Contact Section */
 .contact .contact-info-item{
