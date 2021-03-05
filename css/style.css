@@ -212,7 +212,7 @@ input,textarea,select{
 /*Aside */
 .aside{
 	width: 270px;
-	background-color: #fdf9ff;
+	background-color: #302e4d;
 	position: fixed;
 	height: 100%;
 	left: 0;
@@ -230,7 +230,7 @@ input,textarea,select{
 
 .aside .logo a{
 	font-size: 40px;
-	color: #302e4d;
+	color: #f2f2fc;
 	font-family: 'Rubik', sans-serif;
 	font-weight: 700;
 	text-decoration: none;
@@ -310,7 +310,7 @@ input,textarea,select{
 .aside .nav li a{
 	font-size: 16px;
 	font-weight: 600;
-	color: #302e4d;
+	color: #f2f2fc;
 	text-decoration: none;
 	line-height: 45px;
 	display: block;
@@ -319,16 +319,23 @@ input,textarea,select{
 	transition: all 0.3s ease;
 	text-transform: capitalize;
 }
+.aside .nav li a:hover{
+	color: #ec1850;
+}
+.aside .nav li a.active{
+	color: #f2f2fc;
+}
 .aside .nav li a:not(.active):hover{
 	padding-left: 5px;
+	color: #ec1850;
 }
 .aside .nav li a .fa{
 	margin-right: 5px;
 }
 .aside .copyright-text{
-	background-color: #fdf9ff;
+	background-color: #302e4d;
 	font-size: 13px;
-	color: #504e70;
+	color: #f2f2fc;
 }
 /* HOME */
 .home{
@@ -381,10 +388,12 @@ input,textarea,select{
 	border-radius: 50%;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	background-color: #302e4d;
 }
 .home .intro .social-link a:hover{
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
+	background-color: #ec1850;
 }
 
  /*About Section*/
@@ -442,6 +451,10 @@ input,textarea,select{
 .about .about-content .personal-info .buttons .btn{
 	margin-right: 15px;
 	margin-top: 10px;
+	background-color: #302e4d;
+}
+.about .about-content .personal-info .buttons .btn:hover{
+	background-color: #ec1850;
 }
 .about .about-content .education{
 	-ms-flex: 0 0 100%;
@@ -767,6 +780,9 @@ input,textarea,select{
 .contact .contact-info-item .icon .fa{
 	font-size: 40px;
 }
+.contact .contact-info-item .icon .fa:hover{
+	color: #ec1850;
+}
 .contact .contact-info-item .icon h4{
 	font-size: 18px;
 	font-weight: 700;
@@ -821,6 +837,10 @@ input,textarea,select{
 .contact .contact-form .btn{
 	height: 50px;
 	padding: 0 50px;
+	background-color: #302e4d;
+}
+.contact .contact-form .btn:hover{
+	background-color: #ec1850;
 }
 
 
