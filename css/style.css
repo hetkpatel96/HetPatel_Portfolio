@@ -599,7 +599,7 @@ input,textarea,select{
 }
 .experience .timeline .timeline-college{
 	font-weight: 700;
-	font-size: 22px;
+	font-size: 18px;
 	text-transform: capitalize;
 	color: #302e4d;
 }
@@ -765,6 +765,9 @@ input,textarea,select{
 *, ::after, ::before {
     box-sizing: border-box;
 }
+
+/*Certification Section*/
+
 
 /* Contact Section */
 .contact .contact-info-item{
