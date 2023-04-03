@@ -407,6 +407,7 @@ input,textarea,select{
  	-ms-flex: 0 0 100%;
  	flex: 0 0 100%;
  	max-width: 100%;
+	text-align: justify;
  }
 .about .about-content .about-text h3{
 	font-size: 24px;
@@ -764,6 +765,17 @@ input,textarea,select{
 }
 *, ::after, ::before {
     box-sizing: border-box;
+}
+.list-inline-item .tooltiptext{
+	visibility: hidden;
+	color: black;
+	font-size: 12px;
+	font-weight: bold;
+	position: absolute;
+	z-index: 1;
+}
+.list-inline-item:hover .tooltiptext {
+	visibility: visible;
 }
 
 /*Certification Section*/
